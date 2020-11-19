@@ -1,0 +1,107 @@
+<!doctype html  >
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title> Coursera is cool!</title>
+</head>
+<body>
+	<h1 id= "top">Links to sections on my page</h1>
+	<section>
+		<ul>
+			<!-- link to various parts of my test page -->
+			<li><a href="#section1">unordered list</a></li>
+			<li><a href="#section2">ordered list</a></li>
+			<li><a href="#section3">escape characters</a></li>
+			<li><a href="#section4">internal same doc. links</a></li>
+			<li><a href="#section5">external links</a></li>
+			<li> Images
+				<ol>
+					<li><a href="#section6">local images</a></li>
+					<li><a href="#section7">web images</a></li>
+				</ol>
+			</li>
+		</ul>
+	</section>
+
+		<section id="section1">
+			<h2>Unordered list</h2>
+			<div>
+				My Shopping list:
+				<ul>
+					<li>milk</li>
+					<li>donuts
+						<ul>
+							<li>chocolate</li>
+							<li>strawberry</li>
+							<li>blueberry</li>
+						</ul>
+					</li>
+					<li>syrup</li>
+				</ul>
+			</div>
+		</section>
+
+	<section id="section2">
+		<h2>ordered list</h2>
+		<div>
+			My Shopping list:
+			<ol>
+				<li>milk</li>
+				<li>donuts
+					<ol>
+						<li>chocolate</li>
+						<li>strawberry</li>
+						<li>blueberry</li>
+					</ol>
+				</li>
+				<li>syrup</li>
+			</ol>
+		</div>
+
+	<section id="section3">
+		<h2>escape characters: greater than, less than and ampersand</h3>
+		<p>
+			<div>for &gt;, use &amp;gt;</div>
+			<div>for &lt;, use &amp;lt;</div>
+			<div>for &amp;, use &amp;amp;</div>
+			<div> copyright symbol &copy; use &amp;copy;</div>
+			<div>non&nbsp;breaking&nbsp;space keeps&nbsp;sentence&nbsp;structure&nbsp;the&nbsp;same&nbsp;without&nbsp;text&nbsp;wrapping&nbsp;use&nbsp&amp;nbsp;</div>
+		</p>
+
+	<section id="section4">
+		<h2>Internal links</h2>
+		<p>
+			We can link a file in the same directory as this HTML file like this:
+			<a href="firstHTMLfile.html" title="same dir link">Linking to a file in the same directory</a>
+
+			<a href="firstHTMLfile.html" title="same dir link">
+				<div> DIV linking to a file in the same directory</div>
+			</a>
+			<div> Start from top: <a href="#top">Back to top</a></div>
+		</p>
+		
+	</section>
+
+	<section id = "section5">
+		<h2>External links test</h2>
+		<p>
+			this is a link to my LinkedIN page
+			<a href="https://www.linkedin.com/in/louis-amoah-nuamah-ba1768129"
+			target="blank" title="view my profile">My LinkedIn page</a>
+		</p>
+	</section>
+
+	<h3 id="section6">Local Images</h3>
+	<p>
+		<img src="16.jpg" width="400" height="250" alt="Adinkra symbols">
+		<div>Image downloaded from &copy; www.adrenalinegh.com</div>
+	</p>
+
+	<h3 id="section7">Webpages images</h3>
+	<p>
+		<img src="https://www.lunapic.com/editor/images/sunset.jpg" with="640" height="480">
+		<div>&copy; LUNAPIC</div>
+	</p>
+
+</body>
+</html>
